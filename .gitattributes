@@ -1,0 +1,12 @@
+# Handle line endings for all text files
+* text=auto
+
+# Ensure specific files or directories use LF
+*.js text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Ensure binary files are not modified
+*.png binary
+*.jpg binary
+*.gif binary
